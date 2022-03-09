@@ -60,7 +60,7 @@ height: 438px;
     margin-top: 30px;
     margin-left: 30px;
 }
-.player{
+.player{border-radius: 5px;
     background-color:#FFFFFF;
     margin-right: 8px;
     margin-bottom: 2px;
@@ -76,4 +76,62 @@ padding: 15px;
 .player .player-pic img{
     width: 300px;
 height: 256px;
+}
+/* footer styles */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+margin-top: 40px;
+margin-bottom: 30px;
+background-color: #FFFFFF;
+}
+footer img{
+    width: 483px;
+    height: 110px;
+}
+footer p{
+    margin-top: 8px;
+    
+}
+footer a{
+    color: black;
+    margin-right: 5px;
+}
+/* meadia queries */
+/* media quries for top-banner */
+@media  screen and (max-width:688px) {
+   .top-banner{
+      width: 100%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       font-size: 36px;
+    line-height: 50px;
+   }
+   /* .top-banner-info{
+       width: 50%; */
+   
+   .top-banner-pic{
+       margin-top: 10px;
+   }
+
+   .top-banner-pic img{
+    width: 329px;
+    height: 259px;
+   }
+   .players{
+       display: grid;
+       grid-template-columns: 1fr;
+       margin-top: 10px;
+       margin-left: 10px;
+   }
+   .player{
+       margin-top: 5px;
+       margin-bottom: 5px;
+       margin-right: 2px;
+       padding: 10px;
+       border-radius: 5px;
+   }
+
 }
