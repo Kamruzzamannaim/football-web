@@ -13,7 +13,13 @@ body{
     display: flex;
     align-items: center;
  justify-content: space-around;
+ 
 }
+.top-banner:hover .top-banner-pic img{transform: scale(1.2);
+    transition: transform 1s ease-in;
+    
+}
+
 .top-banner-info{
     margin-left: 50px;
     width: 50%;
@@ -25,6 +31,9 @@ body{
     font-size: 64px;
     line-height: 80px;
     
+}
+.top-banner a{
+    text-decoration: none;
 }
 .top-button{
     display: flex;
